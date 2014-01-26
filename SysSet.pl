@@ -2,9 +2,9 @@
 
 $a = $^O
 
-$linux = ($^O == linux)? 1 : 0 ;
-$mac = ($^O == darwin)? 1 : 0 ;
-$windows = ($^O == MSWin32)? 1 : 0 ;
+$linux = ( $^O == linux )? 1 : 0 ;
+$mac = ( $^O == darwin )? 1 : 0 ;
+$windows = ( $^O == MSWin32 )? 1 : 0 ;
 
 use Config;
 
