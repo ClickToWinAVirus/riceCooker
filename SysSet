@@ -1,0 +1,9 @@
+use Config;
+
+$os = config{osname}
+$arch = config{archname}
+
+$linux = ($os == linux)? 1 : 0 ;
+$mac = ($os == darwin)? 1 : 0 ;
+$windows = ($os == MSWin32)? 1 : 0 ;
+
