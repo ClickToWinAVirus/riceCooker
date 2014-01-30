@@ -16,11 +16,11 @@ $macx = ($os == darwin)? 1 : 0 ;
 $windowsx = ($os == MSWin32)? 1 : 0;
 
 if($linux == 1) {
-	print "you are on linux"
+	
 }
 if($mac == 1) {
-	print "you are on mac"
+	
 }
 if($windows == 1) {
-	print "you are on windows"
+	exec 'Directory.bat' ;
 }
